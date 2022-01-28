@@ -1,0 +1,21 @@
+.add {
+    height: 100%;
+}
+.add .operate {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.add .operate .back:hover {
+    cursor: pointer;
+    color: #1890ff;
+}
+.add .operate .back:hover .icon{
+    transform: rotate(180deg);
+    transition: transform 0.5s linear;
+}
+.add .form {
+    height: calc(100% - 42px);
+    overflow: auto;
+}

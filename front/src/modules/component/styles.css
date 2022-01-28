@@ -1,0 +1,30 @@
+/* virtual table */
+.virtual-table .ant-table-container:before,
+.virtual-table .ant-table-container:after {
+    display: none;
+}
+.virtual-table-cell {
+    box-sizing: border-box;
+    padding: 16px;
+    border-bottom: 1px solid #e8e8e8;
+    background: #FFF;
+}
+[data-theme="dark"]  .virtual-table-cell {
+    box-sizing: border-box;
+    padding: 16px;
+    border-bottom: 1px solid #303030;
+    background: #141414;
+}
+
+/* DynamicAdd */
+.dynamic-add {
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dynamic-add-icon:hover {
+    transform: rotate(90deg);
+    transition: transform 0.5s linear;
+}
